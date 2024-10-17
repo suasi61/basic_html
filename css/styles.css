@@ -1,0 +1,171 @@
+html{
+    font-size: 62,5%;
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body{
+    font-size: 16px; /*1rem 10px*/
+
+}
+
+h1{
+    font-size: 3.8rem;
+}
+
+h2{
+    font-size: 3.2rem;
+}
+
+h3{
+    font-size: 2.8rem;
+}
+
+h1,
+h2,
+h3{
+    text-align: center;
+}
+
+/*Enlaces sin decoracion*/
+a{
+    color: inherit;
+    /*Mantiene el color del texto circundante*/
+    text-decoration: none;
+    /*Elimina el subrayado*/
+    transition: color 0.3s ease;
+    /*Añade una transicion suave para los cambios de color*/
+}
+
+a:hover{
+    color: #007bff;
+    /*Cambia el color al pasar el mouse por encima*/
+}
+
+/*Estilos para listas sin punto*/
+ul{
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-left{
+    text-align: left;
+}
+
+.text-right{
+    text-align: right;
+}
+
+.bg-blue{
+    background-color: #007bff;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header{
+    background-color: azure;
+}
+
+header .top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.Logo{
+    display: flex;
+}
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 3rem;
+}
+
+main .projects{
+    width: 33%;
+    background-color: #449de7;
+    padding: 1rem;
+    flex: 1; /* Asegura que cada columna ocupe el mismo espacio horizontal */
+    padding: 1rem;
+}
+
+main .work{
+    width: 33%;
+    background-color: rgb(255, 164, 115);
+    padding-left: 1rem;
+    flex: 1; /* Asegura que cada columna ocupe el mismo espacio horizontal */
+    padding: 1rem;
+}
+
+main .education{
+    width: 33%;
+    background-color: rgb(111, 224, 111);
+    padding-left: 1rem;
+    flex: 1; /* Asegura que cada columna ocupe el mismo espacio horizontal */
+    padding: 1rem;
+}
+
+.reviews-container {
+    max-width: 1200px; /* Mismo ancho que el contenedor principal */
+    margin: 0 auto;
+    padding: 1rem;
+    background-color: #75c1ff;
+}
+.reviews-container .reviews {
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+}
+
+.footer{
+    text-align: center;
+}
+
+.rewiew{
+    flex: 1;
+    background-color: blue;
+    padding: 1rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+}
+
+.review{
+    flex: 1;
+    background-color: rgb(224, 224, 167);
+    padding: 1rem;
+    display: block;
+    box-shadow: 0 0 10px rgba(0, 123, 255, 0.5); 
+
+}
+
+.reviews-item{
+    flex: 1;
+    background-color: rgb(56, 218, 45);
+    padding: 1rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+}
+
+main{
+    display: flex;
+    justify-content: space-between;
+}

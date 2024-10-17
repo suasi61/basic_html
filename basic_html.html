@@ -3,22 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <header>
-        <div>
-            <h5>Miquel Suasi</h5>
+    <header class="container">
+        <div class="top">
+            <div class="Logo">
+                <div>[LOGO]</div>
+                <div>Miquel Suasi</div>
+            </div>
+            <nav>
+                <a href="../index.html">Home</a> /
+                <a href="../contacto.html">Contacto</a> /
+                <a href="../cursos.html">Cursos</a> /
+                <a href="../tutoriales.html">Tutoriales</a> /
+                <a href="../curriculum/curriculum.html">Curriculum</a> /
+                <a href="../horari/horari.html">Horari</a>
+            </nav>
         </div>
-        <section>
+        <div class="hero">
             <h1>Front-end Developer</h1>
-            <p>html only with proper layout, no styling</p>
-        </section>
-        <nav>
-            <a href="index.html">Home</a>
-        </nav>
+            <p class="text-center">html only with proper layout, no styling</p>
+        </div>
     </header>
-    <main>
-        <section>
+    <main class="container">
+        <section class="projects">
             <h2>Projects</h2>
             <ul>
                 <li>Html only portfolio</li>
@@ -28,20 +37,20 @@
                 <li>Product upcoming Page</li>
             </ul>
         </section>
-        <section>
+        <section class="work">
             <h2>Work experience</h2>
-                <div>
+                <div class="experience-item">
                     <h3>Roadmaps</h3>
                     <p>Solved all the fontrend projects</p>
                     <a href="../index.html">Visita mi perfil de github</a>
                 </div>
-                <div>
+                <div class="experience-item">
                     <h3>OpenSource</h3>
                     <p>Contributed to 50 opensource projects. Made my own projects with 200 github stars.</p>
                     <a href="../contacto.html">Visita mi perfil</a>
                 </div>
         </section>
-        <section>
+        <section class="education">
             <h2>Education</h2>
             <p>Graduated with 3.76 out of 4 CPGA. Won Acme Hackathon. Organized 30 sessions.</p>
             <p>Assignaturas que he hecho</p>
@@ -51,23 +60,25 @@
                 <li>Mathematics for Developers</li>
         </section>
     </main>
-    <section>
+    <section class="reviews-container">
         <h2>Reviews from Teachers</h2>
-            <div>
+        <div class="reviews">
+            <div class="review">
                 <p>"Miquel es un desarrollador medio. Siempre mostró gran dedicación en sus proyectos."</p>
                 <p>- Profesor</p>
             </div>
-            <div>
+            <div class="rewiew">
                 <p>"Miquel es normal en el desarrollo frontend."</p>
                 <p>- Profesor</p>
             </div>
-            <div>
+            <div class="reviews-item">
                 <p>"Buen estudiante, con buena actitud"</p>
                 <p>- Profesor</p>
             </div>
+        </div>
+        <footer class="footer">
+            <p>&copy;Todos los derechos reservados</p>
+        </footer>
     </section>
 </body>
-<footer>
-    <p>&copy;Todos los derechos reservados</p>
-</footer>
 </html>
